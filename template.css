@@ -1,5 +1,8 @@
 @media only screen and (min-width: 640px) {
-
+    body {
+        margin: 0;
+        padding: 0;
+    }
 }
 
 #active {
@@ -8,20 +11,28 @@
 
 nav>ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     background-color: rgb(105, 105, 105);
     height: 5vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 nav>ul>li {
-    display: inline;
-    padding: 18px;
+    display: inline-block;
+    padding: 14px 16px;
     border: 2px;
     text-align: center;
+    margin: auto;
+}
+
+nav>ul>li:hover {
+    color: black;
 }
 
 nav>ul>li>a {
     color: white;
+}
+
+nav>ul>li>a:hover {
+    color: red;
 }
