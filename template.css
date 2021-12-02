@@ -25,12 +25,13 @@ nav>ul>li {
     margin: auto;
 }
 
-nav>ul>li:hover {
-    color: black;
-}
-
 nav>ul>li>a {
     color: white;
+    text-decoration: none;
+}
+
+nav>ul>li:hover {
+    color: black;
 }
 
 nav>ul>li>a:hover {
