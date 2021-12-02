@@ -5,6 +5,12 @@
     }
 }
 
+#banner {
+    display: inline;
+    width: 100vw;
+    height: 10vw;
+}
+
 #active {
 
 }
