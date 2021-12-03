@@ -12,7 +12,7 @@
 }
 
 #active {
-
+    background-color: lightgreen;
 }
 
 nav>ul {
@@ -39,9 +39,5 @@ nav>ul>li>a {
 }
 
 nav>ul>li:hover {
-    color: black;
-}
-
-nav>ul>li>a:hover {
-    color: red;
+    background-color: black;
 }
