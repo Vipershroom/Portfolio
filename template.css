@@ -16,7 +16,9 @@
 }
 
 nav>ul {
-    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(105, 105, 105);
     height: 5vh;
     width: 100vw;
