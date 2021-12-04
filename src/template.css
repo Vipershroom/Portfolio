@@ -7,9 +7,10 @@
 }
 
 #banner {
-    display: inline;
+    display: inline-flex;
     width: 100vw;
     height: 11vw;
+    overflow: hidden;
 }
 
 #active {
@@ -25,6 +26,7 @@ nav>ul {
     width: 100vw;
     overflow: hidden;
     margin: 0;
+    padding: 0;
 }
 
 nav>ul>li {
