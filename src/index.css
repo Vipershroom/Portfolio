@@ -12,11 +12,9 @@
 .item1 {
     grid-column: span 8;
     text-align: center;
-    border: 3px solid black;
 }
 
 .item2 {
-    border: 3px solid black;
     grid-column: 1 / 4;
     grid-row: span 4;
 }
@@ -24,5 +22,4 @@
 .item3 {
     grid-column: span 4;
     grid-row: span 4;
-    border: 3px solid black;
 }
