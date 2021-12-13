@@ -43,8 +43,8 @@
 }
 
 .another-grid img {
-    width: 8vw;
-    height: 10vh;
+    width: 11vw;
+    height: 20vh;
     align-content: center;
 }
 
@@ -59,6 +59,17 @@
 }
 
 .new-item3 {
-    grid-column: span 2;
-    grid-row: span 2;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.new-item4 {
+    grid-column: span 1;
+    grid-row: span 1;
+    
+}
+
+.new-item4 img {
+    width: 10vw;
+    
 }
