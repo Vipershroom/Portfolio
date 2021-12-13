@@ -33,3 +33,32 @@
     display: flex;
     justify-content: center;
 }
+
+.another-grid {
+    width: 18vw;
+    height: 15vw;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.another-grid img {
+    width: 8vw;
+    height: 10vh;
+    align-content: center;
+}
+
+.new-item1 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.new-item2 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.new-item3 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
