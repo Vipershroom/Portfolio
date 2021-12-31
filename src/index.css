@@ -48,6 +48,10 @@
     align-content: center;
 }
 
+.item4 img {
+    width: 12vw;
+}
+
 .new-item1 {
     grid-column: span 1;
     grid-row: span 1;
